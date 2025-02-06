@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground tracking-tight;
+    /* Ensure assets load properly from GitHub Pages */
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@layer utilities {
+  .gradient-heading {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .timeline-glow {
+    box-shadow: 0 0 20px theme('colors.primary.DEFAULT/0.2');
+  }
+
+  /* Optimize animations for static deployment */
+  .animate-optimized {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+}
+
+/* Ensure critical CSS is inlined */
+:root {
+  --background-image: none;
+}
+
+/* Print-friendly styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}

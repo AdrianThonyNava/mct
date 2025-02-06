@@ -1,0 +1,37 @@
+App Description for Menstrual Cycle Tracker
+
+Objective:
+The application is designed to help men understand the stages of their partner’s menstrual cycle, including mood, temperament, and behavioral tendencies. By inputting the start date of the partner’s last period, the app will calculate and display where she is in her cycle, and provide an approximation of her current emotional and physical state.
+
+Key Features:
+	1.	Cycle Calculation:
+	•	The app takes the input date of the last menstrual period (LMP) and calculates the exact day of the current cycle, referencing a 28-day cycle.
+	•	The cycle is divided into four distinct phases:
+	•	Phase 1: Menstrual Phase (Day 1-5): The start of the period, typically associated with lower energy and physical discomfort.
+	•	Phase 2: Follicular Phase (Day 6-14): The body prepares for ovulation. This phase is often linked to increased energy, clarity, and motivation.
+	•	Phase 3: Ovulatory Phase (Day 15-21): The peak of fertility, characterized by heightened libido and social confidence.
+	•	Phase 4: Luteal Phase (Day 22-28): Hormones begin to decrease, leading to potential mood swings, irritability, and fatigue.
+	2.	Cycle Stage & Day Calculation:
+	•	The app will calculate the current cycle stage based on the user’s input and display which day of the cycle the partner is on. For instance, “Day 15 of 28” or “Ovulatory Phase.”
+	•	The app will also provide a brief explanation of what the user can expect in terms of mood, behavior, and physiological tendencies for that specific day and phase.
+	3.	Behavioral and Emotional Insights:
+	•	Each phase will include behavioral tendencies and emotional insights based on general trends observed during those times, such as:
+	•	Libido: High during ovulation, lower during menstruation.
+	•	Mood Swings: Likely during the luteal phase.
+	•	Decision-Making Tendencies: Tendency to make more impulsive decisions around ovulation or during the luteal phase.
+	•	Energy Levels: Lower during menstruation, higher during follicular and ovulatory phases.
+	4.	Personalized Recommendations:
+	•	The app will offer day-specific recommendations tailored to the cycle stage. For example:
+	•	Menstrual Phase: “Consider extra relaxation and offering emotional support.”
+	•	Follicular Phase: “This is a great time to plan new activities together.”
+	•	Ovulatory Phase: “High libido – it’s a good time to connect intimately.”
+	•	Luteal Phase: “Expect possible mood swings, patience and understanding may be needed.”
+	5.	Graphs & Visuals:
+	•	The app will present graphical visualizations showing the progression of the menstrual cycle, current stage, and upcoming phase, with a color-coded timeline for easy interpretation.
+	•	Additional graphs will display emotional and physical trends throughout the cycle.
+	6.	Default Initialization:
+	•	The app will default the cycle to start on the Wednesday of the following week (not today). This “anchor date” will serve as the beginning of the 28-day cycle, and all calculations will be based on this starting point. The cycle will then repeat every 28 days.
+	7.	User Interface:
+	•	Simple Input: Users will simply input the start date of their partner’s last period.
+	•	Easy Navigation: The app will allow users to easily scroll through the cycle phases, access mood and behavior predictions, and see recommendations in a clean, easy-to-read format.
+	•	Notifications/Reminders: Optional notifications could be sent to remind users of upcoming phases or offer advice for specific days.

@@ -1,0 +1,22 @@
+# Jekyll configuration for GitHub Pages
+baseurl: "/menstrual-cycle-tracker" # Update this with your repository name
+url: "" # Your GitHub Pages URL will be automatically set
+
+# Build settings
+markdown: kramdown
+exclude:
+  - node_modules
+  - server
+  - package.json
+  - package-lock.json
+  - README.md
+  - .gitignore
+  - tsconfig.json
+  - vite.config.ts
+  - drizzle.config.ts
+
+# Keep these files
+keep_files:
+  - dist
+  - assets
+  - static
